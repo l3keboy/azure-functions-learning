@@ -10,3 +10,8 @@ This is a basic and minimal setup for an Azure Function. It runs on a HTTP trigg
 ## Running locally
 
 To run this function locally for testing purposes, please read the official documentation at Microsoft Learn [here](https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-python?pivots=python-mode-decorators)
+
+## Working of the Azure Function
+
+When starting the function locally, the endpoint be available and can be called via a browser. The endpoint is: <br/>
+`http://localhost:{port}/api/basic_http_trigger`
